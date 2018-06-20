@@ -95,7 +95,7 @@
       "node_modules/(?!@ngrx|lodash-es)"
     ],
     "moduleNameMapper": {
-      "@mywworkspacename/(.*)": "<rootDir>/libs/$1"
+      "@myworkspacename/test-lib": "<rootDir>/libs/test-lib/src/index.ts"
     },
     "collectCoverageFrom": [
       "apps/**/*.ts",

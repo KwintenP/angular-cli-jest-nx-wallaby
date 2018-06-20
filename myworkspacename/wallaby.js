@@ -24,7 +24,7 @@ module.exports = function (wallaby) {
     },
     setup: function (wallaby) {
       var jestConfig = require(wallaby.localProjectDir + '/package.json').jest;
-      const pattern = '@mywworkspacename/(.*)';
+      const pattern = '@myworkspacename/test-lib';
       jestConfig.moduleNameMapper[pattern] = jestConfig.moduleNameMapper[pattern].replace('<rootDir>', wallaby.projectCacheDir);
       console.log('jestCo', jestConfig);
       delete jestConfig.transform; // <--
