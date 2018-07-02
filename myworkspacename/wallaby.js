@@ -6,9 +6,10 @@ module.exports = function (wallaby) {
   var compilerOptions = Object.assign(
     require('./tsconfig.json').compilerOptions,
     require('./tsconfig.spec.json').compilerOptions);
+  compilerOptions.useStandardDefaults = true;
 
   return {
-    files: jestconfig.collectCoverageFrom,
+    files: jestconfig.collectCoverageFrom.concat(['libs/**/*.html']),
     tests: ['apps/**/*spec.ts', '!apps/**/*e2e-spec.ts', 'libs/**/*spec.ts', '!libs/**/*e2e-spec.ts'],
     env: {
       type: 'node',
