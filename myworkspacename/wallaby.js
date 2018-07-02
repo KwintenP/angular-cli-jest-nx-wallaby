@@ -9,7 +9,7 @@ module.exports = function (wallaby) {
 
   return {
     files: jestconfig.collectCoverageFrom,
-    tests: ['apps/**/*spec.ts', '!apps/**/*e2e-spec.ts'],
+    tests: ['apps/**/*spec.ts', '!apps/**/*e2e-spec.ts', 'libs/**/*spec.ts', '!libs/**/*e2e-spec.ts'],
     env: {
       type: 'node',
       runner: 'node'
