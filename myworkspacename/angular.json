@@ -124,7 +124,7 @@
       "prefix": "myworkspacename",
       "architect": {
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-devkit/build-angularsss:karma",
           "options": {
             "main": "libs/test-lib/src/test.ts",
             "tsConfig": "libs/test-lib/tsconfig.spec.json",
