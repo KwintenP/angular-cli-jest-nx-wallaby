@@ -128,7 +128,7 @@
           "options": {
             "main": "libs/test-lib/src/test.ts",
             "tsConfig": "libs/test-lib/tsconfig.spec.json",
-            "karmaConfig": "libs/test-lib/karma.conf.js"
+            "karmaConfig": "libs/test-lib/ddddddkarma.conf.js"
           }
         },
         "lint": {
