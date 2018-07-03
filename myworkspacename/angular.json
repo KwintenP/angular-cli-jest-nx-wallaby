@@ -119,7 +119,7 @@
     },
     "test-lib": {
       "root": "libs/test-lib",
-      "sourceRoot": "libs/test-lib/src",
+      "sourceRoot": "libs/qsdfqsdftest-lib/src",
       "projectType": "library",
       "prefix": "myworkspacename",
       "architect": {
